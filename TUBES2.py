@@ -1,6 +1,6 @@
 import random
 from random import choices
-
+### ~~~~~ Menyiapkan Variabel ~~~~~ ###
 jum_indiv = 200
 infected = jum_indiv * 5/100
 waktu_pemulihan = 9
