@@ -3,7 +3,7 @@ from random import choices
 ### ~~~~~ Menyiapkan Variabel ~~~~~ ###
 jum_indiv = 200
 infected = jum_indiv * 5/100
-waktu_pemulihan = 9
+waktu_pemulihan = 9  # Karena python dimulai dari 0, sehingga sama saja dengan 10
 x_max,y_max = 20,20
 x_min,y_min = 0,0
 probability = 0.8
