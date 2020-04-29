@@ -13,7 +13,6 @@ posxInfected,posyInfected = [],[]
 kesehatan = []
 imunitas = []
 infectedtime = []
-
 ### ~~~~~ Data 200 Individu ~~~~~ ###
 virus = 0
 i = 0
@@ -44,14 +43,12 @@ def PBCx(x):
     if x < x_min:
         x += +x_max
     return x
-
 def PBCy(y):
     if y > y_max:
         y += -y_max
     if y < y_min:
         y += +y_max
     return y
-
 totalinfected = virus
 totalsembuh = 0
 while totalsembuh != totalinfected: #Akan loop sampai semua yang terinfeksi sembuh
